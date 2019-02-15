@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title of the document</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      style="padding:0.5rem 3rem"
+    >
+      <a class="navbar-brand" href="index.html">Lattitude</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="max-temperature.html"
+                >Max Temperature
+              </a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind-speed.html">Wind Speed</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <div class="row landing-row">
+        <div class="col-md-8 col-sm-12 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title landing-card-title">Cloudiness</h2>
+              <hr />
+
+              <div class="col-xs-12">
+                <img class="img-responsive" src="./imgs/Cloudiness.png" width="100%" />
+                <p class="card-text" style="margin-top:2rem">
+                  Cloudiness is the most dispersed characteristic observed during this analysis. No
+                  obvious trend was identify at this point of the study.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title landing-card-title">Visualizations</h3>
+              <hr />
+              <div class="row mt-4 visualization-row">
+                <div class="col-md-6 col-sm-3 mb-4">
+                  <a href="max-temperature.html">
+                    <img
+                      class="img-responsive"
+                      src="./imgs/MaxTemperature.png"
+                      width="100%"
+                    />
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-3 mb-4">
+                  <a href="humidity.html">
+                    <img
+                      class="img-responsive"
+                      src="./imgs/Humidity.png"
+                      width="100%"
+                    />
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-3 mb-4">
+                  <a href="#">
+                    <img
+                      class="img-responsive active-visualization"
+                      src="./imgs/Cloudiness.png"
+                      width="100%"
+                    />
+                  </a>
+                </div>
+                <div class="col-md-6 col-sm-3 mb-4">
+                  <a href="wind-speed.html">
+                    <img
+                      class="img-responsive"
+                      src="./imgs/WindSpeed.png"
+                      width="100%"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer"><p>Coding Bootcamp 2018-2019</p></footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
